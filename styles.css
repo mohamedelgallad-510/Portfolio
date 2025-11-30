@@ -3,9 +3,30 @@ body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-size: 1.3125rem;
+    font-weight: 300;
 }
 
 .container {
     width: 570px;
     margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 2.625rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.small {
+    font-size: 1rem;
 }
