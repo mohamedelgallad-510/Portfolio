@@ -3,42 +3,39 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: 300;
+    margin: 0;
 }
 
 .container {
     width: 570px;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
-img {
-    width: 200px;
-    text-align: center;
+.bold-text {
+    font-weight: 900;
+    display: block;
 }
+
+h1 .bold-text {
+    font-size: 80px;
+}
+
+h2 .bold-text {
+    font-size: 60px;
+}
+
 h1,
 h2 {
     font-weight: 300;
-    display: flex;
-    flex-direction: column;
-}
-
-.heading-span {
-    font-weight: 900;
-}
-
-h1 .heading-span {
-    font-size: 5rem;
-}
-
-h2 .heading-span {
-    font-size: 3.75rem;
 }
 
 h1 {
-    font-size: 3.75rem;
+    font-size: 60px;
 }
 
 h2 {
-    font-size: 2.625rem;
+    font-size: 42px;
 }
 
 h3 {
@@ -46,15 +43,28 @@ h3 {
     font-weight: 900;
 }
 
-.small-text {
-    font-size: 16px;
-}
-
 a {
     color: #99D930;
     font-weight: 900;
 }
 
-a:hover {
+a:hover,
+a:focus {
     color: #131313;
+}
+
+.small-text {
+    font-size: 16px;
+}
+
+.container-top {
+    background-color: #D7D7D7;
+}
+
+.container-mid {
+    background-color: #FFEAEA;
+}
+
+.container-bottom {
+    background-color: #EAF9FF;
 }
