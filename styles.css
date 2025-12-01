@@ -68,3 +68,9 @@ a:focus {
 .container-bottom {
     background-color: #EAF9FF;
 }
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    text-align: center;
+}
