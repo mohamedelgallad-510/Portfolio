@@ -74,3 +74,8 @@ img {
     width: 150px;
     text-align: center;
 }
+
+.dark-mode {
+    background-color: #252525;
+    color: #FFF;
+} 
