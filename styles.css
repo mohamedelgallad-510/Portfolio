@@ -86,3 +86,19 @@ img {
     background-color: #252525;
     color: #FFF;
 } 
+
+.link-btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: #99D930;
+    color: #252525;
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.link-btn:hover,
+.link-btn:focus {
+    color: #fff;
+    background-color: #252525;
+}
